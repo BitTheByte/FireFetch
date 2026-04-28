@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+.installed.cfg
+*.manifest
+*.spec
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Tests / coverage / type checking
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# firefetch runtime artefacts
+.cache/
+*.apk
+*.xapk
+*.apks
+*.apkm
+firefetch-*.json
+/tmp/firefetch-apks/
+
+# Secrets / local overrides
+.env
+.envrc
+*.local
+
+# Build / packaging metadata
+pip-wheel-metadata/
+.python-version
